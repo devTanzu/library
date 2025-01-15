@@ -103,4 +103,3 @@ INSERT INTO `user` (`id`, `first`, `last`, `username`, `password` , `email`) VAL
 (3, 'Mr.', 'Abdul', 'Hamid','123456', 'mr.hamid@gmail.com' ),
 (4, 'Nobonita', 'Das', 'Nobonita','123456', 'nobonita@gmail.com'),
 (5, 'Mr.', 'X', 'X','123456', 'samiarahman@gmail.com');
-
