@@ -1,0 +1,155 @@
+.wrapper {
+    height: 660px;
+    width: 1350px;
+    background-color: white;
+    overflow: hidden;
+    /* Prevents accidental scrolling */
+    box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    /* Ensures elements fit inside the wrapper */
+    max-width: 1350px;
+    margin: 0 auto;
+    /* Centers elements */
+}
+
+header {
+    height: 130px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+
+    margin: 0;
+    /* Avoid negative margin */
+    padding: 0;
+    /* Reset padding */
+    height: 100vh;
+    /* Match the viewport height */
+    overflow: hidden;
+    /* Prevent content overflow */
+    background-color: grey;
+}
+
+footer {
+    height: 82px;
+    background-color: black;
+}
+
+.logo {
+    float: left;
+    padding-left: 20px;
+}
+
+.logo img {
+    padding-left: 5px;
+    /* Removed leading zero */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+section .sec_img {
+    height: 100%;
+    /* Adjusted to fit within section */
+    background-image: url("image1.jpeg");
+    background-size: cover;
+    /* Ensures proper background fit */
+    background-position: center;
+}
+
+.box {
+    height: 300px;
+    width: 450px;
+    background-color: #030002;
+    margin: 70px auto;
+    opacity: 0.6;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/* /--------------------------------st_login-----------------------------/ */
+
+.log_img {
+    background-image: url(image3.jpeg);
+    background-size: cover;
+    /* Ensures the image covers the entire div */
+    background-position: center;
+    /* Centers the image */
+    height: 100vh;
+    /* Sets the height to 100% of the viewport */
+    overflow: hidden;
+    /* Prevents overflow */
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    /* Prevent the body from scrolling */
+}
+
+
+.box1,
+.box3 {
+    height: 350px;
+    width: 400px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Add rounded corners */
+    overflow: hidden;
+    /* Prevent content overflow */
+    max-height: calc(100vh - 50px);
+    /* Ensure box doesn't exceed the viewport */
+}
+
+form .login {
+    margin: auto 50px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+}
+
+/* /------------------------------registration--------------------/ */
+.reg_img {
+    height: 100vh;
+    /* Adjusted to fit within wrapper */
+    background-image: url("image3.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.box2 {
+    height: 589px;
+    width: 400px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Rounded corners for aesthetics */
+    max-height: calc(100vh - 50px);
+    /* Ensure the box fits within the viewport */
+    overflow: hidden;
+    /* Prevent content overflow */
+}
