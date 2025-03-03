@@ -91,3 +91,4 @@ library/
 ## Additional Resources
 - [Project Presentation (PDF)](C:/xampp/htdocs/library/presentation_compressed.pdf)
 - [Project Demo (Video)](C:/xampp/htdocs/library/LMS.mp4)
+"# Library-Management-System" 
